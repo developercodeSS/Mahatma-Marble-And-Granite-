@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mahatma Marble And Granite - Premium Marble & Granite Supplier in Udaipur." />
+    <title>Mahatma Marble And Granite | Luxury Supplier</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <span class="logo-text">MAHATMA</span>
+          <span class="logo-subtext">Marble & Granite</span>
+        </a>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="tel:+918668536264" class="btn btn-outline-gold">Call Now</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+      <!-- We can use a slow panning image or a high quality marble texture -->
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Luxury Marble Interior" class="hero-image">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content fade-in-up">
+        <p class="hero-subtitle">Premium Natural Stone</p>
+        <h1 class="hero-title">Elevate Your<br>Space With Luxury</h1>
+        <p class="hero-desc">Discover the finest selection of imported and Indian marble and granite, sourced globally for uncompromising quality.</p>
+        <div class="hero-actions">
+          <a href="#collections" class="btn btn-gold">Explore Collections</a>
+          <a href="#contact" class="btn btn-outline-white">Request Quote</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrapper reveal-left">
+          <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Craftsmanship" class="about-image">
+          <div class="experience-badge">
+            <span class="rating"><i class="fas fa-star"></i> 5.0</span>
+            <span class="reviews">150+ Google Reviews</span>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <h2 class="section-title">Masterpieces<br>In Every Slab</h2>
+          <p class="section-desc">At Mahatma Marble And Granite, we believe that every stone tells a story. Based in the heart of Udaipur, we curate a world-class collection of marble and granite that transforms ordinary spaces into extraordinary sanctuaries.</p>
+          <ul class="features-list">
+            <li><i class="fas fa-check-circle"></i> Unrivaled Quality & Selection</li>
+            <li><i class="fas fa-check-circle"></i> Expert Craftsmanship</li>
+            <li><i class="fas fa-check-circle"></i> Seamless Global Sourcing</li>
+          </ul>
+          <a href="#contact" class="btn btn-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="collections section-padding bg-light" id="collections">
+      <div class="container">
+        <div class="section-header fade-in-up">
+          <h2 class="section-title text-center">Our Curated Collections</h2>
+          <p class="section-desc text-center">Browse our exclusive range of natural stones, meticulously selected for the discerning eye.</p>
+        </div>
+        
+        <div class="filter-controls fade-in-up">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="marble">Premium Marble</button>
+          <button class="filter-btn" data-filter="granite">Luxury Granite</button>
+        </div>
+
+        <div class="product-grid">
+          <!-- Marble 1 -->
+          <div class="product-card fade-in-up" data-category="marble">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Statuario White Marble">
+              <div class="product-overlay">
+                <button class="btn btn-gold-small">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Statuario White</h3>
+              <p>Imported Marble</p>
+            </div>
+          </div>
+          <!-- Granite 1 -->
+          <div class="product-card fade-in-up" data-category="granite" style="transition-delay: 0.1s;">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Absolute Black Granite">
+              <div class="product-overlay">
+                <button class="btn btn-gold-small">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Absolute Black</h3>
+              <p>Premium Granite</p>
+            </div>
+          </div>
+          <!-- Marble 2 -->
+          <div class="product-card fade-in-up" data-category="marble" style="transition-delay: 0.2s;">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Calacatta Gold Marble">
+              <div class="product-overlay">
+                <button class="btn btn-gold-small">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Calacatta Gold</h3>
+              <p>Imported Marble</p>
+            </div>
+          </div>
+          <!-- Granite 2 -->
+          <div class="product-card fade-in-up" data-category="granite" style="transition-delay: 0.3s;">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blue Pearl Granite">
+              <div class="product-overlay">
+                <button class="btn btn-gold-small">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Blue Pearl</h3>
+              <p>Luxury Granite</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us section-padding">
+      <div class="container">
+        <div class="wcu-grid">
+          <div class="wcu-content reveal-left">
+            <h2 class="section-title">The Mahatma Difference</h2>
+            <p class="section-desc">We don't just sell stone; we provide an experience of luxury and reliability from selection to installation.</p>
+          </div>
+          <div class="wcu-features reveal-right">
+            <div class="wcu-item">
+              <div class="wcu-icon"><i class="fas fa-gem"></i></div>
+              <h4>Finest Selection</h4>
+              <p>Handpicked blocks from the best quarries worldwide.</p>
+            </div>
+            <div class="wcu-item">
+              <div class="wcu-icon"><i class="fas fa-tools"></i></div>
+              <h4>Precision Processing</h4>
+              <p>State-of-the-art machinery for flawless finishes.</p>
+            </div>
+            <div class="wcu-item">
+              <div class="wcu-icon"><i class="fas fa-truck-fast"></i></div>
+              <h4>Timely Delivery</h4>
+              <p>Dedicated logistics to ensure your project stays on track.</p>
+            </div>
+            <div class="wcu-item">
+              <div class="wcu-icon"><i class="fas fa-headset"></i></div>
+              <h4>Expert Consultation</h4>
+              <p>Guided support to help you make the perfect choice.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="gallery section-padding bg-dark text-white" id="gallery">
+      <div class="container">
+        <div class="section-header fade-in-up">
+          <h2 class="section-title text-center text-white">Signature Projects</h2>
+          <p class="section-desc text-center" style="color: var(--stone-gray);">Witness the transformative power of our natural stones in luxury spaces.</p>
+        </div>
+        <div class="masonry-grid">
+          <div class="masonry-item item-large fade-in-up">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Luxury Living Room">
+            <div class="item-overlay">
+              <h4>Luxury Villa, Udaipur</h4>
+              <p>Italian Marble Flooring</p>
+            </div>
+          </div>
+          <div class="masonry-item fade-in-up" style="transition-delay: 0.1s;">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Modern Bathroom">
+            <div class="item-overlay">
+              <h4>Boutique Hotel</h4>
+              <p>Statuario Bath</p>
+            </div>
+          </div>
+          <div class="masonry-item fade-in-up" style="transition-delay: 0.2s;">
+            <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Granite Kitchen">
+            <div class="item-overlay">
+              <h4>Modern Kitchen</h4>
+              <p>Absolute Black Granite</p>
+            </div>
+          </div>
+          <div class="masonry-item item-wide fade-in-up" style="transition-delay: 0.3s;">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Marble Hallway">
+            <div class="item-overlay">
+              <h4>Corporate Office</h4>
+              <p>Custom Marble Cladding</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section-padding">
+      <div class="container">
+        <div class="section-header fade-in-up">
+          <h2 class="section-title text-center">Client Impressions</h2>
+        </div>
+        <div class="testimonial-grid fade-in-up">
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"The quality of the Italian marble we procured for our new home is simply unmatched. The entire team at Mahatma Marble was highly professional and guided us perfectly."</p>
+            <div class="client-info">
+              <h4>Rajesh Sharma</h4>
+              <p>Homeowner, Udaipur</p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"As an architect, I demand perfection. Mahatma Marble delivers consistently with their flawless granite selection and timely delivery. Highly recommended."</p>
+            <div class="client-info">
+              <h4>Vikram Singh</h4>
+              <p>Principal Architect</p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"Beautiful collection and excellent service. They have the best variety of natural stones in Rajasthan."</p>
+            <div class="client-info">
+              <h4>Anita Desai</h4>
+              <p>Interior Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section-padding bg-light">
+      <div class="container">
+        <div class="section-header fade-in-up">
+          <h2 class="section-title text-center">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-container fade-in-up">
+          <div class="faq-item">
+            <button class="faq-question">What is the difference between marble and granite? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Marble is a metamorphic rock known for its elegant veining and luxurious appearance, often used in bathrooms and flooring. Granite is an igneous rock, much harder and more durable, making it ideal for high-traffic areas and kitchen countertops.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Do you deliver outside Udaipur? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Yes, we supply and deliver premium marble and granite across India and also handle international exports depending on the order volume.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">How do I maintain my marble floors? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Marble should be cleaned with a pH-neutral cleaner. Avoid acidic substances like vinegar or lemon, which can etch the surface. Regular sealing is also recommended to maintain its pristine look.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info reveal-left">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-desc">Have a project in mind? Contact our experts for a personalized consultation and quotation.</p>
+            
+            <div class="contact-details">
+              <div class="contact-method">
+                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <h4>Visit Our Showroom</h4>
+                  <p>Udaipur, Sapetiya, Rajasthan 313011</p>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                <div>
+                  <h4>Call Us Directly</h4>
+                  <p><a href="tel:+918668536264">+91 8668536264</a></p>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="icon"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <h4>Email Us</h4>
+                  <p><a href="mailto:info@mahatmamarble.com">info@mahatmamarble.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-wrapper reveal-right">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" aria-label="Your Name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" aria-label="Your Email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="phone" aria-label="Your Phone Number" placeholder="Your Phone Number" required>
+              </div>
+              <div class="form-group">
+                <select id="interest" aria-label="Interested In" required>
+                  <option value="" disabled selected>Interested In...</option>
+                  <option value="marble">Premium Marble</option>
+                  <option value="granite">Luxury Granite</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea id="message" rows="4" aria-label="Your Message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold w-100">Send Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Google Map -->
+      <div class="map-container fade-in-up">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115865.17646549071!2d73.63345472856238!3d24.63100346383637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56550a14411%3A0xdbd8c28455b868b0!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1689260000000!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo text-white">
+            <span class="logo-text">MAHATMA</span>
+            <span class="logo-subtext">Marble & Granite</span>
+          </a>
+          <p class="footer-desc">Curators of fine natural stones, bringing the beauty of the earth into your most cherished spaces.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#gallery">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="#">Imported Marble</a></li>
+            <li><a href="#">Indian Marble</a></li>
+            <li><a href="#">Premium Granite</a></li>
+            <li><a href="#">Onyx & Travertine</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 Mahatma Marble And Granite Pvt. Ltd. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+      <a href="tel:+918668536264" class="float-btn call-btn" aria-label="Call Now">
+        <i class="fas fa-phone-alt"></i>
+      </a>
+      <a href="https://wa.me/918668536264" target="_blank" class="float-btn whatsapp-btn" aria-label="WhatsApp Us">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
